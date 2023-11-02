@@ -1,0 +1,139 @@
+.header {
+    position: relative;
+}
+
+.shop__detail {
+    margin:30px 60px;
+    width:500px;
+}
+
+.shop__detail-tag {
+    display: flex;
+}
+
+.shop__detail-back {
+    text-decoration: none;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding:7px;
+    font-size:10px;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 3px 3px 1px rgba(49, 49, 49, 0.3);
+    background-color: white;
+}
+
+.shop__detail-name input {
+    margin: 5px 10px;
+    width: 80%;
+    font-weight: bold;
+    font-size: 17px;
+    border: none;
+    outline: none;
+    background-color: aliceblue;
+}
+
+.shop__detail-img img {
+    width: 100%;
+    margin-top:20px;
+}
+
+.shop__detail-hash {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.shop__detail-hash input {
+    font-size: 12px;
+    border: none;
+    outline: none;
+    background-color: aliceblue;
+}
+
+.shop__detail-area {
+    width: 40px;
+}
+
+.shop__detail-genre {
+    width: 70px;
+}
+
+.shop__detail-overview {
+    margin-top: 20px;
+}
+
+.shop__detail-overview p {
+    font-size: 12px;
+}
+
+.form__reserve {
+    position:absolute;
+    top:30px;
+    left:700px;
+    width:400px;
+    height: 550px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 1px rgba(49, 49, 49, 0.3);
+    background-color: rgb(0, 81, 255);
+}
+
+.shop__reserve {
+    margin-left:30px;
+}
+
+.form__reserve-title {
+    color:white;
+}
+
+.form__reserve-card input {
+    border-radius: 3px;
+    padding:2px;
+    border: none;
+    font-size: 15px;
+}
+
+.form__reserve-time input,
+.form__reserve-number input {
+    width:300px;
+    margin-top:10px;
+}
+
+.form__confirm {
+    margin-top: 30px;
+    padding:20px 10px;
+    width: 350px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 1px rgba(49, 49, 49, 0.3);
+    background-color: rgba(0, 173, 253, 0.801);
+}
+td {
+    width:150px;
+    padding:10px 0 0 20px;
+    text-align: left;
+    font-size:15px;
+    font-weight: normal;
+    color: white;
+}
+
+.form__reserve-button button{
+    display: block;
+    margin-top: 140px;
+    cursor: pointer;
+    width:400px;
+    height: 40px;
+    border: none;
+    text-align: center;
+    color:white;
+    font-size:15px;
+    border-radius: 0 0 5px 5px;
+    background-color: rgb(0, 17, 255);
+}
+
+.not-login {
+    position: absolute;
+    top: 30px;
+    left: 700px;
+    color: black;
+}

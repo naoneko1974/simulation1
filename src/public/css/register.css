@@ -1,0 +1,112 @@
+body {
+    background-color: aliceblue;
+}
+
+.form__register {
+    width: 100%;
+}
+
+.form__register-card {
+    position: relative;
+    margin: 80px auto;
+    width: 350px;
+    height: auto;
+    border: solid 1px rgb(184, 184, 184);
+    border-radius: 5px;
+    box-shadow: 2px 2px 1px rgba(49, 49, 49, 0.3);
+    background-color: white;
+}
+
+.form__register-title {
+    position: absolute;
+    display: block;
+    width: 350px;
+    height: 50px;
+    padding: 15px 0 0 20px;
+    z-index: 10;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px 5px 0 0;
+    box-shadow: 2px 0 1px rgba(49, 49, 49, 0.3);
+    background-color: rgb(0, 81, 255);
+}
+
+.form__register-contents {
+    position: relative;
+    margin: 70px 0 0 60px;
+}
+
+input {
+    width: 250px;
+    height: 20px;
+    border: none;
+    outline: none;
+}
+
+.form__register-name,
+.form__register-email,
+.form__register-password {
+    width: 250px;
+    margin-bottom: 10px;
+    border-bottom: solid 1px black;
+}
+
+.form__register-name::before {
+    content: "";
+    position: absolute;
+    top: -1px;
+    left: -37px;
+    background: url(/img/person.svg);
+    background-size: cover;
+    vertical-align: middle;
+    width: 28px;
+    height: 28px;
+    display: inline-block;
+}
+
+.form__register-email::before {
+    content: "";
+    position: absolute;
+    top: 32px;
+    left: -37px;
+    background: url(/img/mail.svg);
+    background-size: cover;
+    vertical-align: middle;
+    width: 28px;
+    height: 28px;
+    display: inline-block;
+}
+
+.form__register-password::before {
+    content: "";
+    position: absolute;
+    top: 66px;
+    left: -37px;
+    background: url(/img/lock.svg);
+    background-size: cover;
+    vertical-align: middle;
+    width: 28px;
+    height: 28px;
+    display: inline-block;
+}
+
+.form__error {
+    margin:10px 0;
+    color:red;
+}
+
+.form__register-button {
+    margin: 20px 40px 20px 0;
+}
+
+.form__register-submit {
+    display: block;
+    cursor: pointer;
+    margin-left: auto;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(0, 81, 255);
+}
